@@ -1,0 +1,141 @@
+/* 
+this is a placeholder for the moment
+*/
+body {
+	background: black;
+	color: white;
+	/* font-family: preeti; */
+	font-family: courier;
+}
+
+#user_input {
+	font-family: preeti;
+	font-size: 24px;
+	width: 20em;
+}
+
+::placeholder {
+	/* font-family: preeti; */
+}
+
+#btn {
+	font-size: 24px;
+	/* font-family: preeti; */
+}
+
+
+/* styling heading contents  */
+#container_head {
+	font-family: courier new;
+	display: flex;
+	border: 1px solid white;
+	border-radius: 4px;
+	background: rgba(255, 255, 255, 0.05);
+	padding: 5px;
+}
+
+
+/* styling the main box that contains the text and the input bar */
+#container_text_here {
+	font-family: preeti;
+	border-radius: 4px;
+	border: 1px solid grey;
+	padding: 7px;
+	margin: 10px;
+}
+
+/* styling the logo  */
+#logo_down {
+	color: red;
+}
+
+#logo_up {
+	color: blue;
+}
+
+/* styling the buttons setting and about us  */
+#setting_logo {
+	margin-left: auto;
+	margin-right: 30px;
+}
+
+.other_logo {
+	cursor: pointer;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.other_logo:hover {
+	border: 1px solid grey;
+	background: rgba(130, 200, 255, 0.6);
+}
+
+/* styling the setting buttons  the header one */
+#ulist {
+	font-family: consolas;
+	border-radius: 5px;
+	border: 1px solid orange;
+	padding: 10px;
+	margin: 10px;
+}
+
+/* .main_list_settings:hover { */
+	/* background: rgba(255, 255, 255, 0.2); */
+	/* border-top: 2px solid orange; */
+	/* border-bottom: 2px solid orange; */
+/* } */
+
+/* .list_settings { */
+	/* background: rgba(0, 0, 0, 0.5); */
+	/* color: blue; */
+	/* border-radius: 3px; */
+	/* font-size: 18px; */
+	/* display: inline; */
+/* } */
+
+.setting_input {
+	/* display: block; */
+}
+
+.setting_button {
+	background: orange;
+	color: black;
+	border-radius: 4px;
+	border: 0px;
+	outline: 2px solid orange;
+}
+
+/* styling the message on the header */
+.msg_end {
+	color: white;
+	background: red;
+}
+
+/* styling the timer_main  */
+#timer_main {
+	font-family: courier new;
+}
+
+/* styling the resulting container  */
+#result_div  {
+	font-family: courier;
+	border-radius: 4px;
+	border: 1px solid grey;
+	padding: 7px;
+	margin: 5px;
+}
+
+.button_for_result_styling {
+	border: none;
+	outline: 2px solid orange;
+	background: black;
+	border-radius: 7px;
+	font-size: 18px;
+	color: white;
+	padding: 5px;
+	float: center;
+}
+
+.button_for_result_styling:hover {
+	background: rgba(255, 255, 255, 0.2);
+}

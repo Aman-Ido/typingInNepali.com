@@ -1,15 +1,49 @@
-<!-- this is just a placeholder for the moment because I have exams and I will start this website after my exam, see you after a week -->
+<!--
+	This is a website where the user can typing in Nepali (preeti font) and it will show the words per minute
+-->
 <!DOCTYPE HTML>
 <html>
-  <head>
-    <title>Placeholder | Moment </title>
-    <meta charset="utf-8" />
-  </head>
-  <body style="background: black; font-family: consolas;font-size: 24px;color: white;">
-    This is just a placeholder for the moment, but if you want to visit or check other projects made by me, please consider visiting these links.<br>
-    <a href="https://experimentalwebsiteidea.on.drv.tw" target="_blank">Experimentalwebsiteidea.on.drv.tw</a><br>
-    
-    <h1 style="color: yellow; background: red;">Below website is considered dangerous by the google chrome browser but it is not [but don't enter any sensitive data]</h1>
-    <a href="https://f0rum5document.000webhostapp.com" target="_blank">f0rum5document.000webhostapp.com</a><br>
-  </body>
+	<head>
+		<title>typingInNepali.com</title>
+		<meta charset="utf-8" />
+	<!-- styling -->
+		<link rel="stylesheet" href="./main_file/css/main.css" />
+	
+	<!-- scripting -->
+	<!-- jquery code -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	</head>
+	
+	<body>
+		<!-- heading -->
+		<div class="container" id="container_head">
+		
+		<!-- logo -> typing in Nepali .com -->
+			<h1 class="logo" id="logo">typing<sub id="logo_down">InNepali</sub><sup id="logo_up">.com</sup></h1>
+		<!-- setting button and about us button -->
+			<h3 id="setting_logo" class="other_logo">settings</h3>
+			<h3 id="about_logo" class="other_logo">About us</h3>
+		</div>
+		<!-- body -->
+		<div id="container_text_here">
+			<!-- having a timer in here -->
+			<h3 id="timer_main"></h3>
+			<h2 id="heading_two"></h2>
+			
+		<!-- elements -->
+		<!-- not having any of the form or button because we are just going to work with the input here -->
+			<!-- taking the input from the user -->
+			<!-- <form id="enter_enter"> -->
+				<input id="user_input" class="input_" placeholder="oxfF n]Vg'xf];\" autocomplete="off" />
+				<!-- <button id="btn" class="button_">eof]</button> -->
+			<!-- </form> -->
+		</div>
+	<!-- scripting -->
+		<script src="./main_file/js/data.js"></script>
+		<script src="./main_file/js/functions.js"></script>
+		<script src="./main_file/js/main.js"></script>
+		<script src="./main_file/js/settings.js"></script>
+		<script src="./main_file/js/timer.js"></script>
+		<!-- <script src="./main_file/js/refresh.js"></script> -->
+	</body>
 </html>
